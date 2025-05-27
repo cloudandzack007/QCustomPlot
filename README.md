@@ -1,4 +1,4 @@
-原版QCustomPlot在opengl模式下，缩放会是额失衡
+原版QCustomPlot在opengl模式下，缩放会失衡
 
 这是cpp里QCPPaintBufferGlFbo::draw里drwaImage(0,0,mGlFrameBuffer->toImage())导致的
 
